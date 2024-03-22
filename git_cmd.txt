@@ -1,0 +1,8 @@
+git -c http.sslVerify=false clone http://github.com/adtnapoli/ifts_repo
+
+git add .
+git commit -m 'commento 1'
+
+git -c http.sslVerify=false push
+
+git -c http.sslVerify=false pull

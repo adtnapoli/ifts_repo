@@ -8,6 +8,8 @@ git -c http.sslVerify=false push
 git -c http.sslVerify=false pull
 
 git rm 'nome file' oppure git rm . per togliere tutto
+
 git commit -m 'commento elimnazione'
+
 git push -u origin 'brench in cui è posizionato'
 

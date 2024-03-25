@@ -10,10 +10,7 @@ git -c http.sslVerify=false pull
 git rm 'nome file' oppure git rm . per togliere tutto
 
 git commit -m 'commento elimnazione'
-<<<<<<< HEAD
 
 git push -u origin 'brench in cui è posizionato'
-=======
-git -c http.sslVerify=false push -u origin 'brench in cui è posizionato'
->>>>>>> c7fc4ac75afa8fcd7dd29a8cc21fdf7cf706c851
 
+git -c http.sslVerify=false push -u origin main

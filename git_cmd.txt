@@ -14,3 +14,5 @@ git commit -m 'commento elimnazione'
 git push -u origin 'brench in cui è posizionato'
 
 git -c http.sslVerify=false push -u origin main
+
+git checkout 'brench'   sposta da un brench all'altro
